@@ -59,7 +59,7 @@ public class LightboxConfig {
   public struct CloseButton {
     public static var enabled = true
     public static var size: CGSize?
-    public static var text = NSLocalizedString("Close", comment: "")
+    public static var text = NSLocalizedString("关闭", comment: "")
     public static var image: UIImage?
 
     public static var textAttributes: [NSAttributedString.Key: Any] = [
@@ -76,7 +76,7 @@ public class LightboxConfig {
   public struct DeleteButton {
     public static var enabled = false
     public static var size: CGSize?
-    public static var text = NSLocalizedString("Delete", comment: "")
+    public static var text = NSLocalizedString("删除", comment: "")
     public static var image: UIImage?
 
     public static var textAttributes: [NSAttributedString.Key: Any] = [
@@ -93,7 +93,7 @@ public class LightboxConfig {
   public struct InfoLabel {
     public static var enabled = true
     public static var textColor = UIColor.white
-    public static var ellipsisText = NSLocalizedString("Show more", comment: "")
+    public static var ellipsisText = NSLocalizedString("更多", comment: "")
     public static var ellipsisColor = UIColor(hex: "899AB9")
 
     public static var textAttributes: [NSAttributedString.Key: Any] = [
